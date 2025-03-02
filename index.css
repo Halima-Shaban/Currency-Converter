@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #335f70;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 25rem;
+  background-color: #33393b;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  padding: 2rem;
+  border-radius: 0.8rem;
+}
+.app-details {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.app-icon {
+  width: 9.37rem;
+  border-radius: 30%;
+}
+.app-title {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+}
+
+input#amount {
+  font-weight: 400;
+  font-size: 1.2rem;
+  display: block;
+  width: 100%;
+  border-bottom: 2px solid #345a6a;
+  color: #31b5e5;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+}
+input#amount:focus {
+  border-color: #2c586d;
+  color: #2c586d;
+}
+.dropdowns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+select {
+  width: 100%;
+  padding: 0.6rem;
+  font-size: 1rem;
+  border-radius: 0.2rem;
+  appearance: none;
+  background-color: #31b5e5;
+  color: #ffffff;
+}
+select option {
+  background-color: #ffffff;
+  color: #2c586d;
+}
+
+button {
+  font-size: 1rem;
+  width: 100%;
+  background-color: #31b5e5;
+  padding: 1rem 0;
+  margin-top: 2rem;
+  border-radius: 0.3rem;
+  color: #ffffff;
+  font-weight: 600;
+}
+#result {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  text-align: center;
+  color: #2c586d;
+  background-color: #34c4f9;
+  padding: 0.8rem 0;
+}
